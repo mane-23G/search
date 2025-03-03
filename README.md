@@ -5,7 +5,8 @@ This is a parallel algorithm that prints the poistions a given pattern was found
 mpicc -Wall -o search search.c 
 
 ### Usage 
-mpirun \[MPI options\] search <pattern> <file>
+mpirun \[MPI options\] search \<pattern\> \<file\>
+
 The user must supply a pattern and a file for which the algorithm will search the file for.
 
 ### Output and Features
