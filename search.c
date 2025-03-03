@@ -4,8 +4,8 @@
   Created on     : March 25, 2024
   Description    : parralize searching for pattern in a file
   Purpose        : To use MPI broadcast MPI scatter
-  Usage          : mpirun --use-hwthread-cpus search search
-  Build with     : mpicc -Wall -o estimat_log estimate_log.c -lm
+  Usage          : mpirun --use-hwthread-cpus search <pattern> <file>
+  Build with     : mpicc -Wall -o search search.c
   Modifications  : comments
  
 */
